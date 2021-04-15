@@ -11,7 +11,7 @@ export default function CountryStatistic(props) {
     if (withButton){
         return (
             <section className="mt-10">
-                <div className="border border-red-100 rounded-xl shadow-2xl py-9 mx-4 xl:mx-48">
+                <div className="border rounded-lg shadow-2xl py-9 mx-4 xl:mx-40">
                     <div className="flex flex-col lg:flex-row justify-center">
                         <h1 className="text-5xl font-medium text-gray-800 text-center">
                             Statistik Kasus&nbsp; 
@@ -23,7 +23,7 @@ export default function CountryStatistic(props) {
                             Indonesia
                         </h1>
                     </div>
-                    <p className="text-gray-400 text-center text-xl my-1 px-1">
+                    <p className="text-gray-400 text-center text-xl font-normal my-1 px-1">
                         Berikut detail statistik kasus corona di Indonesia per {formatDate(date.lastUpdate)} :
                     </p>
     
@@ -62,7 +62,7 @@ export default function CountryStatistic(props) {
                         </div>
                     </div>
                     
-                    <Button type="link" href="/statistik" className="flex w-48 h-12 mt-5 mb-3 mx-auto items-center text-lg text-white bg-red-500 rounded-full justify-center transition duration-500 hover:bg-red-600">
+                    <Button type="link" href="/statistik" className="flex w-48 h-12 mt-5 mb-3 mx-auto items-center text-lg text-white bg-red-500 border-2 border-red-400 rounded-full justify-center transition duration-500 hover:bg-red-600">
                         Statistik Daerah 
                         <svg className="w-4 h-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -79,7 +79,7 @@ export default function CountryStatistic(props) {
 
     return (
         <section className="mt-10">
-            <div className="border border-red-100 rounded-xl shadow-2xl py-9 mx-4 xl:mx-48">
+            <div className="border rounded-lg shadow-2xl py-9 mx-4 xl:mx-40">
                 <div className="flex flex-col lg:flex-row justify-center">
                     <h1 className="text-5xl font-medium text-gray-800 text-center">
                         Statistik Kasus&nbsp; 
