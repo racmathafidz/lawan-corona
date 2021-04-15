@@ -4,6 +4,9 @@ import { connect } from 'react-redux'
 import Header from 'parts/Header'
 import Hero from 'parts/Hero'
 import CountryStatistic from 'parts/CountryStatistic'
+import Gejala from 'parts/Gejala'
+
+import jsonData from 'json/resource'
 
 import { fetchCountry } from 'store/actions/country'
 import { fetchDate } from 'store/actions/date'
@@ -17,15 +20,15 @@ class LandingPage extends Component {
     componentDidMount(){
         window.scrollTo(0, 0)
 
-        if (this.props.country === null && this.props.date === null) {
+        //if (this.props.country == null && this.props.date === null) {
             this.props.fetchCountry()
             this.props.fetchDate()
-        }
+        //}
     }
 
     render() {
 
-        if (this.props.country === null && this.props.date === null) {
+        if (this.props.country === null || this.props.date === null) {
             return (
                 <div>
                     <Header {...this.props}/>
@@ -39,6 +42,7 @@ class LandingPage extends Component {
                 <Header {...this.props}/>
                 <Hero {...this.props}/>
                 <CountryStatistic data={this.props.country[0]} date={this.props.date} withButton/>
+                <Gejala data={jsonData.gejala}/>
             </div>
         )
     }
