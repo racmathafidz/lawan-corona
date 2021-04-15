@@ -1,0 +1,36 @@
+{
+    "gejala": [
+        {
+            "ringan": [
+                {
+                    "gejala": "Demam"
+                },
+                {
+                    "gejala": "Batuk kering"
+                },
+                {
+                    "gejala": "Kelelahan"
+                },
+                {
+                    "gejala": "Sakit tenggorokan"
+                }
+            ]
+        },
+        {
+            "parah": [
+                {
+                    "gejala": "Sesak napas"
+                },
+                {
+                    "gejala": "Nyeri dada"
+                },
+                {
+                    "gejala": "Penurunan kesadaran"
+                },
+                {
+                    "gejala": "Sakit kepala berat"
+                }
+            ]
+        } 
+    ]
+}
