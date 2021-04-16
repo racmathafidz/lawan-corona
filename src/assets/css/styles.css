@@ -3,9 +3,25 @@
 @tailwind utilities;
 
 section {
-  @apply py-5;
+  @apply py-5 mb-14;
 }
 
 .active-link {
   @apply text-red-600;
+}
+
+.accordion {
+  @apply border-2 rounded-xl shadow-xl;
+}
+
+.accordion__button {
+  @apply text-2xl text-gray-800 p-10 w-full focus:outline-none;
+}
+
+.accordion__panel {
+  @apply py-14 px-10 sm:px-20 text-gray-500 text-lg text-justify font-light border-t border-b;
+}
+
+.accordion__item + .accordion__item {
+  @apply border-t border-b;
 }

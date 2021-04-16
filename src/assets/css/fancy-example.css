@@ -1,0 +1,38 @@
+/**
+* ----------------------------------------------
+* Demo styles
+* ----------------------------------------------
+**/
+.accordion__button:before {
+  display: inline-block;
+  content: "";
+  height: 12px;
+  width: 12px;
+  margin-right: 15px;
+  border-bottom: 2px solid currentColor;
+  border-right: 2px solid currentColor;
+  transform: rotate(-45deg);
+}
+
+.accordion__button[aria-expanded="true"]::before,
+.accordion__button[aria-selected="true"]::before {
+  transform: rotate(45deg);
+}
+
+[hidden] {
+  display: none;
+}
+
+/* -------------------------------------------------- */
+/* ---------------- Animation part ------------------ */
+/* -------------------------------------------------- */
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
