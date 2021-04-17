@@ -3,7 +3,7 @@
 
 ### About
 An education and real time tracking app about Corona Virus in Indonesia:indonesia:.\
-Built using ReactJS, TailwindCSS and Redux.
+Built with ReactJS, TailwindCSS and Redux.
 
 ### Tech Stack
 - [**ReactJS**](https://github.com/facebook/create-react-app)
