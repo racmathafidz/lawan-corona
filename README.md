@@ -1,4 +1,10 @@
-# Getting Started with Create React App
+# Racx Studio
+![alt text](https://github.com/racmathafidz/lawan-corona/blob/master/src/assets/images/screely.png)
+
+A corona virus real time tracking app.\
+Demo: https://lawan-corona.vercel.app/
+
+## Getting Started with Create React A
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
