@@ -20,7 +20,7 @@ An education and real time tracking app about corona virus. Built using ReactJS,
 - [**Mathdroid COVID-19 API**](https://covid19.mathdro.id/)
 
 ### Demo
-[**Demo :**] https://lawan-corona.vercel.app/
+**Demo :** https://lawan-corona.vercel.app/
 
 ## Getting Started with Create React App
 
