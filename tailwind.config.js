@@ -26,7 +26,8 @@ module.exports = {
     },
     extend: {
       animation: {
-        'bounce-x' : 'bouncex 1s infinite'
+        'bounce-x' : 'bouncex 1s infinite',
+        'slow-spin' : 'spin 3s linear infinite'
       },
       keyframes: {
         bouncex: {
