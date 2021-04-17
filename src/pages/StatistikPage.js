@@ -2,27 +2,27 @@ import React, { Component } from 'react'
 import { connect } from 'react-redux'
 
 import Header from 'parts/Header'
-import Hero from 'parts/Hero'
 import CountryStatistic from 'parts/CountryStatistic'
-import Gejala from 'parts/Gejala'
-import Protokol from 'parts/Protokol'
-import Konsultasi from 'parts/Konsultasi'
+import ProvinceStatistic from 'parts/ProvinceStatistic'
 import Footer from 'parts/Footer'
 import Loading from 'pages/Loading'
 
-import jsonData from 'json/resource'
-
 import { fetchCountry } from 'store/actions/country'
+import { fetchProvince } from 'store/actions/province'
 import { fetchDate } from 'store/actions/date'
 
-class LandingPage extends Component {
+class StatistikPage extends Component {
 
-    constructor(props) {
+    constructor(props){
         super(props)
     }
 
     componentDidMount(){
         window.scrollTo(0, 0)
+
+        if(!this.props.province){
+            this.props.fetchProvince()
+        }
 
         if (!this.props.country && !this.props.date) {
             this.props.fetchCountry()
@@ -32,7 +32,7 @@ class LandingPage extends Component {
 
     render() {
 
-        if (!this.props.country || !this.props.date) {
+        if (!this.props.country || !this.props.date || !this.props.province) {
             return (
                 <>
                     <Loading/>
@@ -43,11 +43,8 @@ class LandingPage extends Component {
         return (
             <>
                 <Header {...this.props}/>
-                <Hero {...this.props}/>
-                <CountryStatistic data={this.props.country[0]} date={this.props.date} withButton/>
-                <Gejala data={jsonData.gejala}/>
-                <Protokol data={jsonData}/>
-                <Konsultasi {...this.props}/>
+                <CountryStatistic data={this.props.country[0]} date={this.props.date}/>
+                <ProvinceStatistic data={this.props.province.data} date={this.props.date}/>
                 <Footer {...this.props}/>
             </>
         )
@@ -56,7 +53,8 @@ class LandingPage extends Component {
 
 const mapStateToProps = (state) => ({
     country: state.country,
-    date: state.date
+    date: state.date,
+    province: state.province
 })
 
-export default connect( mapStateToProps, {fetchCountry, fetchDate})(LandingPage)
+export default connect( mapStateToProps, { fetchCountry, fetchProvince, fetchDate })(StatistikPage)
