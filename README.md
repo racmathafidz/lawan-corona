@@ -1,4 +1,4 @@
-# Racx Studio
+# Lawan Corona
 ![alt text](https://github.com/racmathafidz/lawan-corona/blob/master/src/assets/images/screely.png)
 
 A corona virus real time tracking app.\
