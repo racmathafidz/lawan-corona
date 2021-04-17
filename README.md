@@ -2,7 +2,8 @@
 ![alt text](https://github.com/racmathafidz/lawan-corona/blob/master/src/assets/images/screely.png)
 
 ### About
-An education and real time tracking app about Corona Virus in Indonesia:indonesia:. Built using ReactJS, TailwindCSS and Redux.
+An education and real time tracking app about Corona Virus in Indonesia:indonesia:.\
+Built using ReactJS, TailwindCSS and Redux.
 
 ### Tech Stack
 - [**ReactJS**](https://github.com/facebook/create-react-app)
