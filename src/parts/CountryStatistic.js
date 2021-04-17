@@ -16,50 +16,50 @@ export default function CountryStatistic(props) {
                 <section>
                     <div className="border rounded-lg shadow-xl py-9 mx-4 xl:mx-40">
                         <div className="flex flex-col lg:flex-row justify-center px-2 sm:px-3 lg:px-1">
-                            <h1 className="text-5xl font-medium text-gray-800 text-center">
+                            <h1 className="text-4xl sm:text-5xl font-medium text-gray-800 text-center">
                                 Statistik Kasus&nbsp; 
                             </h1>
-                            <h1 className="text-5xl font-medium text-red-600 text-center">
+                            <h1 className="text-4xl sm:text-5xl font-medium text-red-600 text-center">
                                 Corona&nbsp;
                             </h1>
-                            <h1 className="text-5xl font-medium text-gray-800 text-center">
+                            <h1 className="text-4xl sm:text-5xl font-medium text-gray-800 text-center">
                                 Indonesia
                             </h1>
                         </div>
-                        <p className="text-gray-400 text-center text-xl font-light mb-1 px-2 sm:px-3 lg:px-1">
+                        <p className="text-gray-400 text-center text-lg sm:text-xl font-light mb-1 px-2 sm:px-3 lg:px-1">
                             Berikut detail statistik kasus corona di Indonesia per {formatDate(date.lastUpdate)} :
                         </p>
         
                         <div className="grid grid-cols-1 sm:grid-cols-2 gap-7 py-10 lg:mx-52">
                             <div className="text-center">
-                                <h2 className="text-4.5xl text-red-600 font-medium">
+                                <h2 className="text-3.5xl sm:text-4.5xl text-red-600 font-medium">
                                     {formatNumber(data.confirmed)}
                                 </h2>
-                                <p className="text-xl text-gray-400 font-light">
+                                <p className="text-lg sm:text-xl text-gray-400 font-light">
                                     Total Positif
                                 </p>
                             </div>
                             <div className="text-center">
-                                <h2 className="text-4.5xl text-yellow-500 font-medium">
+                                <h2 className="text-3.5xl sm:text-4.5xl text-yellow-500 font-medium">
                                     {formatNumber(data.active)}
                                 </h2>
-                                <p className="text-xl text-gray-400 font-light">
+                                <p className="text-lg sm:text-xl text-gray-400 font-light">
                                     Dirawat
                                 </p>
                             </div>
                             <div className="text-center">
-                                <h2 className="text-4.5xl text-gray-700 font-medium">
+                                <h2 className="text-3.5xl sm:text-4.5xl text-gray-700 font-medium">
                                     {formatNumber(data.deaths)}
                                 </h2>
-                                <p className="text-xl text-gray-400 font-light">
+                                <p className="text-lg sm:text-xl text-gray-400 font-light">
                                     Meninggal
                                 </p>
                             </div>
                             <div className="text-center">
-                                <h2 className="text-4.5xl text-green-600 font-medium">
+                                <h2 className="text-3.5xl sm:text-4.5xl text-green-600 font-medium">
                                     {formatNumber(data.recovered)}
                                 </h2>
-                                <p className="text-xl text-gray-400 font-light">
+                                <p className="text-lg sm:text-xl text-gray-400 font-light">
                                     Sembuh
                                 </p>
                             </div>
@@ -86,50 +86,50 @@ export default function CountryStatistic(props) {
             <section>
                 <div className="border rounded-lg shadow-xl py-9 mt-5 mx-4 xl:mx-40">
                     <div className="flex flex-col lg:flex-row justify-center  px-2 sm:px-3 lg:px-1">
-                        <h1 className="text-5xl font-medium text-gray-800 text-center">
+                        <h1 className="text-4xl sm:text-5xl font-medium text-gray-800 text-center">
                             Statistik Kasus&nbsp; 
                         </h1>
-                        <h1 className="text-5xl font-medium text-red-600 text-center">
+                        <h1 className="text-4xl sm:text-5xl font-medium text-red-600 text-center">
                             Corona&nbsp;
                         </h1>
-                        <h1 className="text-5xl font-medium text-gray-800 text-center">
+                        <h1 className="text-4xl sm:text-5xl font-medium text-gray-800 text-center">
                             Indonesia
                         </h1>
                     </div>
-                    <p className="text-gray-400 text-center text-xl font-light mb-1 px-2 sm:px-3 lg:px-1">
+                    <p className="text-gray-400 text-center text-lg sm:text-xl font-light mb-1 px-2 sm:px-3 lg:px-1">
                         Berikut detail statistik kasus corona di Indonesia per {formatDate(date.lastUpdate)} :
                     </p>
-
+    
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-7 py-10 lg:mx-52">
                         <div className="text-center">
-                            <h2 className="text-4.5xl text-red-600 font-medium">
+                            <h2 className="text-3.5xl sm:text-4.5xl text-red-600 font-medium">
                                 {formatNumber(data.confirmed)}
                             </h2>
-                            <p className="text-xl text-gray-400">
+                            <p className="text-lg sm:text-xl text-gray-400 font-light">
                                 Total Positif
                             </p>
                         </div>
                         <div className="text-center">
-                            <h2 className="text-4.5xl text-yellow-500 font-medium">
+                            <h2 className="text-3.5xl sm:text-4.5xl text-yellow-500 font-medium">
                                 {formatNumber(data.active)}
                             </h2>
-                            <p className="text-xl text-gray-400">
+                            <p className="text-lg sm:text-xl text-gray-400 font-light">
                                 Dirawat
                             </p>
                         </div>
                         <div className="text-center">
-                            <h2 className="text-4.5xl text-gray-700 font-medium">
+                            <h2 className="text-3.5xl sm:text-4.5xl text-gray-700 font-medium">
                                 {formatNumber(data.deaths)}
                             </h2>
-                            <p className="text-xl text-gray-400">
+                            <p className="text-lg sm:text-xl text-gray-400 font-light">
                                 Meninggal
                             </p>
                         </div>
                         <div className="text-center">
-                            <h2 className="text-4.5xl text-green-600 font-medium">
+                            <h2 className="text-3.5xl sm:text-4.5xl text-green-600 font-medium">
                                 {formatNumber(data.recovered)}
                             </h2>
-                            <p className="text-xl text-gray-400">
+                            <p className="text-lg sm:text-xl text-gray-400 font-light">
                                 Sembuh
                             </p>
                         </div>

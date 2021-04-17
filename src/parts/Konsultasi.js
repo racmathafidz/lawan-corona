@@ -9,10 +9,10 @@ export default function Konsultasi() {
         <Fade bottom>
             <section>
                 <div className="border border-red-400 rounded-2xl shadow-xl sm:shadow-2xl py-14 mx-4 sm:mx-2 lg:mx-4 xl:mx-40">
-                    <h1 className="text-4.5xl sm:text-5xl font-medium text-gray-800 text-center mb-1 px-3 sm:px-0">
+                    <h1 className="text-4xl sm:text-5xl font-medium text-gray-800 text-center mb-1 px-3 sm:px-0">
                         Konsultasikan Jika Mengalami Gejala.
                     </h1>
-                    <p className="text-xl text-gray-400 font-light text-justify sm:text-center px-4 xl:px-14">
+                    <p className="text-lg sm:text-xl text-gray-400 font-light text-justify sm:text-center px-4 xl:px-14">
                         Bantu program ini dengan cara konsultasi apabila mengalami gejala, sayangilah keluarga dan saudara anda.
                     </p>
                     <Button

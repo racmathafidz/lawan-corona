@@ -11,10 +11,10 @@ export default function Protokol({ data }) {
         <Fade bottom>
             <section className="container mx-auto">
                 <div className="mx-5 sm:mx-10 lg:mx-20 xl:mx-0">
-                    <h1 className="text-4.5xl sm:text-5xl font-medium text-gray-800 text-center mb-1">
+                    <h1 className="text-4xl sm:text-5xl font-medium text-gray-800 text-center mb-1">
                         Bagaimana Cara Mencegah Corona?
                     </h1>
-                    <p className="text-xl text-gray-400 font-light text-justify sm:text-center xl:mx-36">
+                    <p className="text-lg sm:text-xl text-gray-400 font-light text-justify sm:text-center xl:mx-36">
                         Terapkan protokol 3M sebagai upaya mencegah sekaligus memutus rantai penularan COVID-19.<br/>
                         Apa itu 3M? 
                     </p>

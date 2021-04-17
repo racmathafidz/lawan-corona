@@ -11,13 +11,13 @@ export default function Hero(props) {
         <Fade bottom>
             <section className="container flex flex-col lg:flex-row mx-0 lg:mx-auto pl-7 pr-7 sm:pl-20 sm:pr-24 items-center -mt-4">
                 <div className="w-full lg:w-1/2 xl:pr-4 xl:mr-10">
-                    <h1 className="flex text-5.5xl lg:text-4.5xl xl:text-5.5xl font-bold text-gray-800 sm:tracking-wide">
+                    <h1 className="flex text-4.5xl lg:text-4.5xl sm:text-5.5xl xl:text-5.5xl font-bold text-gray-800 sm:tracking-wide">
                         Berjuang Bersama
                     </h1>
-                    <h1 className="flex text-5.5xl lg:text-4.5xl xl:text-5.5xl font-bold text-red-600 sm:tracking-wide sm:-mt-4">
+                    <h1 className="flex text-4.5xl lg:text-4.5xl sm:text-5.5xl xl:text-5.5xl font-bold text-red-600 sm:tracking-wide sm:-mt-4">
                         Lawan Corona
                     </h1>
-                    <p className="text-gray-400 text-xl font-light sm:text-justify tracking-wide leading-snug mt-4">
+                    <p className="text-gray-400 text-lg sm:text-xl font-light sm:text-justify tracking-wide leading-snug mt-4">
                         Sayangi dan Lindungi Keluarga dengan Tidak Menyebarkan Virus Corona. Mari Kita Stop Virus Corona Bersama.
                     </p>
 

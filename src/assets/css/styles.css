@@ -15,7 +15,7 @@ section {
 }
 
 .accordion__button {
-  @apply text-2xl text-gray-800 p-10 w-full focus:outline-none;
+  @apply text-xl sm:text-2xl text-gray-800 p-10 w-full focus:outline-none;
 }
 
 .accordion__panel {

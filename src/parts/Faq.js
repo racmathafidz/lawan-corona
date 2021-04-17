@@ -20,7 +20,7 @@ export default function Faq({ data }) {
                     <h1 className="text-4xl sm:text-5xl font-medium text-gray-800 text-center mb-1">
                         Pertanyaan Yang Sering Ditanyakan (F.A.Q)
                     </h1>
-                    <p className="text-xl text-gray-400 font-light text-justify sm:text-center xl:mx-36">
+                    <p className="text-lg sm:text-xl text-gray-400 font-light text-justify sm:text-center xl:mx-36">
                         Berikut beberapa pertanyaan yang sering ditanyakan tentang virus corona :
                     </p>
                 </div>
