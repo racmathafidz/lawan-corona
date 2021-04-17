@@ -13,7 +13,7 @@ An education and real time tracking app about corona virus. Built using ReactJS,
 - [**Redux**](https://redux.js.org/) : State management
 - [**Axios**](https://github.com/axios/axios) : Fetching API
 - [**headlessUI**](https://github.com/tailwindlabs/headlessui) : Transition Style
-- [**React Lottie**](https://www.npmjs.com/package/react-lottie) : Display Lottie(https://lottiefiles.com/) animation
+- [**React Lottie**](https://www.npmjs.com/package/react-lottie) : Display [Lottie](https://lottiefiles.com/) animation
 - [**React Reveal**](https://www.react-reveal.com/) : Animation 
 
 ### API
