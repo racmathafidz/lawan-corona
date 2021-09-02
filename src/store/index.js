@@ -1,26 +1,27 @@
-import { createStore, applyMiddleware, compose } from 'redux'
-import thunk from 'redux-thunk'
+/* eslint-disable no-underscore-dangle */
+import { createStore, applyMiddleware, compose } from 'redux';
+import thunk from 'redux-thunk';
 
-//Root Reducer
-import rootReducer from './reducers'
+// Root Reducer
+import rootReducer from './reducers';
 
-//Inisialisasi State Awal
-const initialState = {}
+// Inisialisasi State Awal
+const initialState = {};
 
-//Middleware
-const middleware = [thunk]
+// Middleware
+const middleware = [thunk];
 
-//Make the Store
+// Make the Store
 const store = createStore(
-    rootReducer,
-    initialState,
-    compose(
-        applyMiddleware(...middleware),
-        // Chrome Redux Devtools Extension
-        window.__REDUX_DEVTOOLS_EXTENSION__
-         ? window.__REDUX_DEVTOOLS_EXTENSION__()
-         : (f) => f
-    )
-)
+  rootReducer,
+  initialState,
+  compose(
+    applyMiddleware(...middleware),
+    // Chrome Redux Devtools Extension
+    window.__REDUX_DEVTOOLS_EXTENSION__
+      ? window.__REDUX_DEVTOOLS_EXTENSION__()
+      : (f) => f,
+  ),
+);
 
-export default store
+export default store;

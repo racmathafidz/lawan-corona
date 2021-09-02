@@ -1,3 +1,3 @@
-export const FETCH_COUNTRY = "FETCH_COUNTRY"
-export const FETCH_PROVINCE = "FETCH_PROVINCE"
-export const FETCH_DATE = "FETCH_DATE"
+export const FETCH_COUNTRY = 'FETCH_COUNTRY';
+export const FETCH_PROVINCE = 'FETCH_PROVINCE';
+export const FETCH_DATE = 'FETCH_DATE';

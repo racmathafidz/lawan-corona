@@ -1,12 +1,12 @@
-import { combineReducers } from 'redux'
+import { combineReducers } from 'redux';
 
-import country from './country'
-import province from './province'
-import date from './date'
+import country from './country';
+import province from './province';
+import date from './date';
 
-//Combining Reducer
+// Combining Reducer
 export default combineReducers({
-    country,
-    province,
-    date
-})
+  country,
+  province,
+  date,
+});
