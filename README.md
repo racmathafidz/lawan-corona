@@ -9,7 +9,7 @@ Built with ReactJS, TailwindCSS and Redux.
 - [**ReactJS**](https://github.com/facebook/create-react-app)
 - [**PostCSS**](https://postcss.org/)
 - [**TailwindCSS**](https://tailwindcss.com/)
-- [**Vercel**](https://vercel.com/)
+- [**Netlify**](https://netlify.com/)
 
 ### Library
 - [**Redux**](https://redux.js.org/) : State management
@@ -17,12 +17,13 @@ Built with ReactJS, TailwindCSS and Redux.
 - [**headlessUI**](https://github.com/tailwindlabs/headlessui) : Transition Style
 - [**React Lottie**](https://www.npmjs.com/package/react-lottie) : Display [Lottie](https://lottiefiles.com/) animation
 - [**React Reveal**](https://www.react-reveal.com/) : Animation 
+- [**ESLint**](https://eslint.org/) : Linting and formatting
 
 ### API
 - [**Mathdroid COVID-19 API**](https://covid19.mathdro.id/)
 
 ### Demo
-**Demo :** https://lawan-corona.vercel.app/
+**Demo :** https://lawan-corona.netlify.app/
 
 ### Available Scripts
 
