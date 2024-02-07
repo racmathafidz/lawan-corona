@@ -23,7 +23,7 @@ Built with ReactJS, TailwindCSS and Redux.
 - [**Mathdroid COVID-19 API**](https://covid19.mathdro.id/)
 
 ### Demo
-**Demo :** https://lawan-corona.netlify.app/
+**Demo :** [**lawan-corona.vercel.app**](https://lawan-corona.vercel.app/)
 
 ### Available Scripts
 
