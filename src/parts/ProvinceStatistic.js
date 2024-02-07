@@ -1,13 +1,13 @@
 /* eslint-disable react/jsx-filename-extension */
 /* eslint-disable react/prop-types */
-import React from 'react';
+import React from "react";
 
-import Fade from 'react-reveal/Fade';
+import Fade from "react-reveal/Fade";
 
-import formatDate from 'utils/formatDate';
-import formatNumber from 'utils/formatNumber';
+// import formatDate from "utils/formatDate";
+// import formatNumber from "utils/formatNumber";
 
-export default function ProvinceStatistic({ data, date }) {
+export default function ProvinceStatistic(/* { data, date } */) {
   return (
     <Fade bottom>
       <section>
@@ -25,9 +25,10 @@ export default function ProvinceStatistic({ data, date }) {
           </div>
           <p className="text-gray-400 text-center text-lg sm:text-xl font-light mb-1 px-2 sm:px-3 lg:px-1">
             Berikut detail statistik kasus corona per provinsi di Indonesia per
-            {' '}
+            4 Februari 2024
+            {/* {' '}
             {formatDate(date.lastUpdate)}
-            {' '}
+            {' '} */}
             :
           </p>
 
@@ -35,48 +36,32 @@ export default function ProvinceStatistic({ data, date }) {
             <table className="w-full divide-y divide-gray-200 xl:mr-10">
               <thead className="bg-gray-50 ">
                 <tr className="text-sm sm:text-base text-gray-500">
-                  <th className="px-6 py-3">
-                    No.
-                  </th>
-                  <th className="px-6 py-3">
-                    Provinsi
-                  </th>
-                  <th className="px-6 py-3">
-                    Positif
-                  </th>
-                  <th className="px-6 py-3">
-                    Sembuh
-                  </th>
-                  <th className="px-6 py-3">
-                    Meninggal
-                  </th>
+                  <th className="px-6 py-3">No.</th>
+                  <th className="px-6 py-3">Provinsi</th>
+                  <th className="px-6 py-3">Positif</th>
+                  <th className="px-6 py-3">Sembuh</th>
+                  <th className="px-6 py-3">Meninggal</th>
                 </tr>
               </thead>
-              <tbody className="bg-white divide-y divide-gray-200">
-                {
-                                    data
-                                      .filter((item, index) => index <= 33)
-                                      .map((item, index) => (
-                                        <tr className="text-sm sm:text-base text-gray-500">
-                                          <td className="text-center py-4">
-                                            {`${index + 1}.`}
-                                          </td>
-                                          <td className="py-4">
-                                            {item.provinsi}
-                                          </td>
-                                          <td className="text-center py-4">
-                                            {formatNumber(item.kasusPosi)}
-                                          </td>
-                                          <td className="text-center py-4">
-                                            {formatNumber(item.kasusSemb)}
-                                          </td>
-                                          <td className="text-center">
-                                            {formatNumber(item.kasusMeni)}
-                                          </td>
-                                        </tr>
-                                      ))
-                                }
-              </tbody>
+              {/* <tbody className="bg-white divide-y divide-gray-200">
+                {data
+                  .filter((item, index) => index <= 33)
+                  .map((item, index) => (
+                    <tr className="text-sm sm:text-base text-gray-500">
+                      <td className="text-center py-4">{`${index + 1}.`}</td>
+                      <td className="py-4">{item.provinsi}</td>
+                      <td className="text-center py-4">
+                        {formatNumber(item.kasusPosi)}
+                      </td>
+                      <td className="text-center py-4">
+                        {formatNumber(item.kasusSemb)}
+                      </td>
+                      <td className="text-center">
+                        {formatNumber(item.kasusMeni)}
+                      </td>
+                    </tr>
+                  ))}
+              </tbody> */}
             </table>
           </div>
         </div>
