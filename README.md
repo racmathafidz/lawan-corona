@@ -9,7 +9,7 @@ Built with ReactJS, TailwindCSS and Redux.
 - [**ReactJS**](https://github.com/facebook/create-react-app)
 - [**PostCSS**](https://postcss.org/)
 - [**TailwindCSS**](https://tailwindcss.com/)
-- [**Netlify**](https://netlify.com/)
+- [**Vercel**](https://vercel.com/)
 
 ### Library
 - [**Redux**](https://redux.js.org/) : State management
